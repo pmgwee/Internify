@@ -40,24 +40,24 @@ export const ResumeUpload = ({
     }
   }
 
-  
-  return (  
+
+  return (
     <div className="flex justify-center items-center">
       <div className="flex justify-center items-center">
         {!isEditing ? <>
           {!currentUser.resumeUrl ? (
             <div className="flex flex-col gap-2 justify-center items-center">
-              <Button 
-                  onClick={toggleEdit}
-                  size="lg"
-                  variant="black"
-                  className="hover:opacity-75 transition h-12"
-                >
-                  <Edit className="w-4 h-4 mr-2" /> Submit
-                </Button>
-                <div className="text-slate-500 italic text-sm">
-                  Oops! Looks like you havent update your resume.
-                </div>
+              <Button
+                onClick={toggleEdit}
+                size="lg"
+                variant="black"
+                className="hover:opacity-75 transition h-12"
+              >
+                <Edit className="w-4 h-4 mr-2" /> Submit
+              </Button>
+              <div className="text-slate-500 italic text-sm">
+                Oops! Looks like you havent update your resume.
+              </div>
             </div>
           ) : (
             <div className="flex flex-row gap-2 justify-center items-center">
@@ -69,28 +69,28 @@ export const ResumeUpload = ({
                 >
                   <File />
                   <p className="line-clamp-1">
-                    {currentUser.name}'s resume
+                    {currentUser.name} resume
                   </p>
                 </a>
               </div>
-              <Button 
-                  onClick={toggleEdit}
-                  size="lg"
-                  variant="black"
-                  className="hover:opacity-75 transition h-12"
-                >
-                  <Edit className="w-4 h-4 mr-2" /> Resubmit
-                </Button>
+              <Button
+                onClick={toggleEdit}
+                size="lg"
+                variant="black"
+                className="hover:opacity-75 transition h-12"
+              >
+                <Edit className="w-4 h-4 mr-2" /> Resubmit
+              </Button>
             </div>
           )}
         </> : (
           <>
             <div className="w-80 flex flex-col justify-between items-center">
-              <FileUpload 
+              <FileUpload
                 endpoint="resumeAttachment"
                 onChange={(url) => {
-                  if(url) {
-                    onSubmit({resumeUrl: url})
+                  if (url) {
+                    onSubmit({ resumeUrl: url })
                   }
                 }}
               />
@@ -98,9 +98,9 @@ export const ResumeUpload = ({
                 <div>
                   1:1 aspect ratio recommended
                 </div>
-                <Button 
+                <Button
                   onClick={toggleEdit}
-                  variant="ghost" 
+                  variant="ghost"
                   size="sm"
                 >
                   Cancel
@@ -108,7 +108,7 @@ export const ResumeUpload = ({
               </div>
             </div>
           </>
-        )}    
+        )}
       </div>
     </div>
   );
