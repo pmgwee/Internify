@@ -1,5 +1,5 @@
 <h1>Website Link:</h1>
-<a>internify304-topaz.vercel.app</a>
+<a>[internify304-topaz.vercel.app](https://internify304.vercel.app/)</a>
 
 This is the project repo for the CAT304 - Group38
 
