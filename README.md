@@ -1,16 +1,16 @@
 <h1>Official Website Link:</h1>
 (https://internify304-e29481ae2799.herokuapp.com/)
 
-
 <h1>Backup Website Link:</h1>
 (internify-test.vercel.app)
 
 <br/>
-Backup Version For Deployment (Powered by Vercel),CAT304 - Group38
+ Deployment Repository for CAT304 Project - Group38 (Powered by Heroku,Vercel)
 
 <br/>
 
-## Getting Started
+## Interested to Clone and Inspect the Project?
+### Follow the Instructions below!
 
 First, clone the repo and run the project:
 
@@ -22,4 +22,4 @@ npx prisma generate
 npm run dev
 ```
 
-Open  with your browser to see the result.
+
