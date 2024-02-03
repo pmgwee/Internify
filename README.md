@@ -1,8 +1,7 @@
 <h1>Website Link:</h1>
 (internify-test.vercel.app)
 <br/>
-This is the project repo for the CAT304 - Group38,
-Backup Version For Deployment (Powered by Vercel)
+Backup Version For Deployment (Powered by Vercel),CAT304 - Group38
 
 <br/>
 
