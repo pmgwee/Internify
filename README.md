@@ -1,5 +1,5 @@
 <h1>Website Link:</h1>
-internify-test.vercel.app
+[internify-test.vercel.app](internify-test.vercel.app)
 <br/>
 This is the project repo for the CAT304 - Group38,
 Backup Version For Deployment (Powered by Vercel)
@@ -18,4 +18,4 @@ npx prisma generate
 npm run dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open  with your browser to see the result.
